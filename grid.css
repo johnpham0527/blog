@@ -42,7 +42,7 @@ main {
 }
 
 aside {
-    background: #615424;
+    background: #613524;
     color: white;
     grid-column: 10 / 13;
 }
@@ -62,6 +62,7 @@ main, nav {
 
 footer {
     background: #613524;
+    background: #615424;
     grid-column: 1 / 13;
     color: white;
 }
