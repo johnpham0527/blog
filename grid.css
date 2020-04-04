@@ -48,23 +48,23 @@ aside {
 
 nav {
     background: #613524;
-  color: white;
-  grid-column: 1 / 4;
+    color: white;
+    grid-column: 1 / 4;
 }
 nav a {
-  color: white;
+    color: white;
 }
 
 main, nav {
-  grid-row: 2 / 4;
+    grid-row: 2 / 4;
 }
 
 footer {
-  background: #282461;
-  grid-column: 1 / 13;
-  color: white;
+    background: #282461;
+    grid-column: 1 / 13;
+    color: white;
 }
 
 footer a {
-  color: white;
+    color: white;
 }
