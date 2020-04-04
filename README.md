@@ -1,2 +1,2 @@
 # blog
-What I Learn Daily - John Pham's Learning Journey
+John Pham's Web Development Learning Journey
