@@ -41,10 +41,19 @@ main {
     grid-column: 4 / 10;
 }
 
+main h2, h3 {
+    color: #282461;
+}
+
+
 aside {
     background: #613524;
     color: white;
     grid-column: 10 / 13;
+}
+
+aside h2 {
+    color: #F7F8FA;
 }
 
 nav {
@@ -52,8 +61,13 @@ nav {
     color: white;
     grid-column: 1 / 4;
 }
+
 nav a {
     color: white;
+}
+
+nav h2 {
+    color: #F7F8FA;
 }
 
 main, nav {
@@ -61,7 +75,6 @@ main, nav {
 }
 
 footer {
-    background: #613524;
     background: #615424;
     grid-column: 1 / 13;
     color: white;
