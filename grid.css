@@ -33,6 +33,7 @@ header {
     background: white;
     color: #282461;
     grid-column: 1 / 13;
+    margin: auto;
 }
 
 main {
