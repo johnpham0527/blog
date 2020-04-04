@@ -45,6 +45,9 @@ main h2, h3 {
     color: #282461;
 }
 
+.date {
+    font-size: 0.75em;
+}
 
 aside {
     background: #613524;
