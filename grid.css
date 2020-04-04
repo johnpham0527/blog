@@ -26,8 +26,8 @@ h1, h2 {
 }
 
 header {
-    background: #282461;
-    color: white;
+    background: white;
+    color: #282461;
     grid-column: 1 / 13;
 }
 
@@ -43,7 +43,7 @@ aside {
 }
 
 nav {
-  background: #615424;
+    background: #613524;
   color: white;
   grid-column: 1 / 4;
 }
@@ -56,7 +56,7 @@ main, nav {
 }
 
 footer {
-  background: #613524;
+  background: #282461;
   grid-column: 1 / 13;
   color: white;
 }
