@@ -39,6 +39,7 @@ header {
 
 header a {
     text-decoration: none;
+    color: #282461;
 }
 
 header a:visited {
