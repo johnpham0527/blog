@@ -37,6 +37,10 @@ header {
     margin: auto;
 }
 
+header a {
+    text-decoration: none;
+}
+
 main {
     background: #F7F8FA;
     grid-column: 4 / 10;
