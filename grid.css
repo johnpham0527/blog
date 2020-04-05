@@ -60,10 +60,6 @@ aside h2 {
     color: #F7F8FA;
 }
 
-#project-aside {
-
-}
-
 nav {
     background: #282461;
     color: white;
@@ -80,6 +76,19 @@ nav h2 {
 
 main, nav {
     grid-row: 2 / 4;
+}
+
+#app {
+    grid-row: 2 / 2;
+    grid-column: 1 / 13;
+}
+
+#project-aside {
+    grid-column: 4 / 13;
+}
+
+#project-aside, #project-nav {
+    grid-row: 3 / 3;
 }
 
 footer {
