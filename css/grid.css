@@ -82,7 +82,7 @@ nav h2 {
     color: #F7F8FA;
 }
 
-main, nav {
+main, nav, aside {
     grid-row: 2 / 4;
 }
 
