@@ -41,7 +41,7 @@ main {
     grid-column: 4 / 10;
 }
 
-main h2, h3 {
+main h2, main h3 {
     color: #282461;
 }
 
