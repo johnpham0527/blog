@@ -82,19 +82,6 @@ main, nav {
     grid-row: 2 / 4;
 }
 
-#app {
-    grid-row: 2 / 2;
-    grid-column: 1 / 13;
-}
-
-#project-aside {
-    grid-column: 4 / 13;
-}
-
-#project-aside, #project-nav {
-    grid-row: 3 / 3;
-}
-
 footer {
     background: #615424;
     grid-column: 1 / 13;
@@ -103,4 +90,18 @@ footer {
 
 footer a {
     color: white;
+}
+
+/*** CSS for Projects */
+#project-aside, #project-nav {
+    grid-row: 2 / 2;
+}
+
+#app {
+    grid-row: 3 / 3;
+    grid-column: 1 / 13;
+}
+
+#project-aside {
+    grid-column: 4 / 13;
 }
