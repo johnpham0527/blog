@@ -1,14 +1,6 @@
-#app {
-    padding-top: 200px;
-}
-
-main {
+main#app {
     text-align: center;
     margin: auto;
-}
-  
-svg {
-    background-color: ghostwhite;
 }
   
 #title p {
