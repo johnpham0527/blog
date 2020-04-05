@@ -27,6 +27,7 @@ p {
     color: #2F3040;
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 header {
@@ -57,6 +58,10 @@ aside {
 
 aside h2 {
     color: #F7F8FA;
+}
+
+#project-aside {
+
 }
 
 nav {
