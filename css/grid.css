@@ -16,7 +16,7 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-p {
+li, p {
     line-height: 1.5em;
 }
 
