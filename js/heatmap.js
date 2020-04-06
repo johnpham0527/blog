@@ -15,7 +15,7 @@ const tooltip = d3.select("body")
 /* Graph dimensions */
 const w = 1310;
 const h = 420;
-const padding = 80;
+const padding = 60;
 
 /* Time units */
 let parseDate = d3.timeParse('%Y');
