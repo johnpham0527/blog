@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <header role="banner">
-        <h1><a href="index.html">John Pham's Web Development Learning Journey</a></h1>
+        <?php include("header.php"); ?>
       </header>
       <main role="main">
         <section id="latestblog">
