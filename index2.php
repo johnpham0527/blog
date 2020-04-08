@@ -64,7 +64,7 @@
           Come join me on my learning journey for using web development for the civic good!</p>
       </aside>
       <footer role="contentinfo">
-        <small>&copy; Copyright 2020, John D. Pham</small>
+        <?php include("footer.php"); ?>
       </footer>
     </div>
   </body>
