@@ -47,9 +47,7 @@
         </section>
       </main>
       <nav role="navigation">
-        <h2>Projects</h2>
-        <li><a href="projects/choropleth.html">Choropleth Map</a></li>
-        <li><a href="projects/heatmap.html">Heat Map</a></li>
+        <?php include("nav.php"); ?>
       </nav>
       <aside role="complementary">
         <h2>About Me</h2>
