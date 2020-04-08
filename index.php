@@ -1,3 +1,5 @@
+<?php $pathToRoot = "."; ?>
+
 <html>
   <head>
     <title>John Pham's Web Development Learning Journey</title>
@@ -9,7 +11,10 @@
   <body>
     <div class="container">
       <header role="banner">
-        <?php include("includes/header.php"); ?>
+        <?php 
+        $headerPage = $pathToRoot."/includes/header.php";
+        include($headerPage); 
+        ?>
       </header>
       <main role="main">
         <section id="latestblog">

@@ -1,1 +1,1 @@
-<h1><a href="index.html">John Pham's Web Development Learning Journey</a></h1>
+<h1><a href="index.php">John Pham's Web Development Learning Journey</a></h1>
