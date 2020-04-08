@@ -1,3 +1,5 @@
+<?php $pathToRoot = ".."; ?>
+
 <html>
   <head>
     <title>John Pham's Web Development Learning Journey - Visualizing Data Using a Choropleth Map</title>
@@ -10,7 +12,10 @@
   <body>
     <div class="container">
       <header role="banner">
-        <?php include("../header.php"); ?>
+        <?php 
+            $headerPage = $pathToRoot."/includes/header.php";
+            include($headerPage); 
+            ?>
       </header>
       <main role="main" id="app">
         <section id="title">
@@ -23,7 +28,10 @@
         </figure>
     </main>
       <nav role="navigation" id="project-nav">
-        <?php include("../nav.php"); ?>
+        <?php 
+        $headerPage = $pathToRoot."/includes/nav.php";
+        include($headerPage); 
+        ?>
       </nav>
       <aside role="complementary" id="project-aside">
         <h2>Visualizing Data Using a Heat Map</h2>
@@ -39,7 +47,10 @@
         </section>
       </aside>
       <footer role="contentinfo">
-        <?php include("footer.php"); ?>
+        <?php 
+        $headerPage = $pathToRoot."/includes/footer.php";
+        include($headerPage); 
+        ?>
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" crossorigin></script>
