@@ -75,7 +75,10 @@
         </section>
       </main>
       <nav role="navigation">
-        <?php include("../nav.php"); ?>
+        <?php 
+        $headerPage = $pathToRoot."/includes/nav.php";
+        include($headerPage); 
+        ?>
       </nav>
       <aside role="complementary">
         <h2>About Me</h2>
@@ -90,7 +93,10 @@
           Come join me on my learning journey for using web development for the civic good!</p>
       </aside>
       <footer role="contentinfo">
-        <?php include("footer.php"); ?>
+        <?php 
+        $headerPage = $pathToRoot."/includes/footer.php";
+        include($headerPage); 
+        ?>
       </footer>
     </div>
   </body>
