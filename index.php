@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <header role="banner">
-        <?php include("header.php"); ?>
+        <?php include("includes/header.php"); ?>
       </header>
       <main role="main">
         <section id="latestblog">
@@ -47,7 +47,7 @@
         </section>
       </main>
       <nav role="navigation">
-        <?php include("nav.php"); ?>
+        <?php include("includes/nav.php"); ?>
       </nav>
       <aside role="complementary">
         <h2>About Me</h2>
@@ -62,7 +62,7 @@
           Come join me on my learning journey for using web development for the civic good!</p>
       </aside>
       <footer role="contentinfo">
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </footer>
     </div>
   </body>
