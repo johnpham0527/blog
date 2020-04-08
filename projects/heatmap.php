@@ -15,7 +15,7 @@
         <?php 
             $headerPage = $pathToRoot."/includes/header.php";
             include($headerPage); 
-            ?>
+        ?>
       </header>
       <main role="main" id="app">
         <section id="title">
