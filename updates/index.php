@@ -17,7 +17,7 @@
           <article>
               <h3>Today's Featured Project: Visualizing Data Using a Heat Map</h3>
               <p class="date">Posted April 6, 2020</p>
-              <p>Thanks to <a href="http://www.freecodecamp.org">FreeCodeCamp</a>, I recently created <a href="../projects/heatmap.html">my first heat map</a> data visualization project.
+              <p>Thanks to <a href="http://www.freecodecamp.org">FreeCodeCamp</a>, I recently created <a href="../projects/heatmap.php">my first heat map</a> data visualization project.
               Heat maps use color to show the changes a measurement or statistic's magnitude.
               The color changes as the statistic changes in value, such as from low to high.</p>
               <p>The first time I encountered a heat map was when I read a web design book. The book described user interaction studies that tracked a person's eye movements as they visited a website.
@@ -46,7 +46,7 @@
           <article>
             <h3>First Project Uploaded: Choropleth Map - Data Visualization</h3>
             <p class="date">Posted April 5, 2020</p>
-            <p>I have <a href="../projects/choropleth.html">uploaded my first project</a>: a choropleth map of educational attainment in the United States. 
+            <p>I have <a href="../projects/choropleth.php">uploaded my first project</a>: a choropleth map of educational attainment in the United States. 
               This data visualization uses a color spectrum to show how educational attainment differs by county.</p>
             <h4>What I Learned</h4>
             <p>As a nonprofit professional who conducts a lot of research for grant proposals, I am already familiar with reading choropleth maps.

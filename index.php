@@ -17,7 +17,7 @@
           <article>
             <h3>Today's Featured Project: Visualizing Data Using a Heat Map</h3>
             <p class="date">Posted April 6, 2020</p>
-            <p>Thanks to <a href="http://www.freecodecamp.org">FreeCodeCamp</a>, I recently created <a href="../projects/heatmap.html">my first heat map</a> data visualization project.
+            <p>Thanks to <a href="http://www.freecodecamp.org">FreeCodeCamp</a>, I recently created <a href="../projects/heatmap.php">my first heat map</a> data visualization project.
             Heat maps use color to show the changes a measurement or statistic's magnitude.
             The color changes as the statistic changes in value, such as from low to high.</p>
             <p>The first time I encountered a heat map was when I read a web design book. The book described user interaction studies that tracked a person's eye movements as they visited a website.
@@ -43,7 +43,7 @@
             <h4>Takeaways</h4>
             <p>I can use heat maps whenever I need to analyze data that exists along a two-dimension spectrum. </p>
         </article>
-          <p><a href="updates/index.html">Read all previous blog posts.</a></p>
+          <p><a href="updates/index.php">Read all previous blog posts.</a></p>
         </section>
       </main>
       <nav role="navigation">
