@@ -82,7 +82,7 @@
       </nav>
       <aside role="complementary">
         <?php 
-        $headerPage = $pathToRoot."/includes/footer.php";
+        $headerPage = $pathToRoot."/includes/about.php";
         include($headerPage); 
         ?>
       </aside>
