@@ -48,7 +48,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js" crossorigin></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.3.0/redux-thunk.min.js" crossorigin></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" crossorigin></script>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" crossorigin></script>
         <script src="../js/clockScript.js"></script>
   </body>
 </html>
