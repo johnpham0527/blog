@@ -17,12 +17,7 @@
             include($headerPage); 
         ?>
       </header>
-      <main role="main">
-        <section id="title">
-          <h1>Pomodoro Clock</h1>
-      </section>
-      <figure id="app">
-      </figure>
+      <main role="main" id="app">
       </main>
       <nav role="navigation" id="project-nav">
         <?php 
@@ -31,7 +26,7 @@
         ?>
       </nav>
       <aside role="complementary" id="project-aside">
-        <h2>Be Productive with a Pomodor Clock</h2>
+        <h2>Be Productive with a Pomodoro Clock</h2>
         <section>
           <h3>About This Project</h3>
           <p>A pomodoro clock helps you work for a 25-minute session and then take a five minute break.
