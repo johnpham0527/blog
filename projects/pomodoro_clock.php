@@ -30,7 +30,7 @@
         <section>
           <h3>About This Project</h3>
           <p>A pomodoro clock helps you work for a 25-minute session and then take a five minute break.
-            I designed this pomodoro clock with customizable session and break times using JavaScript's React library
+            I designed this pomodoro clock with customizable session and break times using JavaScript's React library.
             I implemented this project as part of FreeCodeCamp's <a href="https://www.freecodecamp.org/certification/johnpham0527/front-end-libraries">Front End Libraries certificate</a> course.
           </p>
         </section>
