@@ -1,20 +1,20 @@
 {
-    "title":"",
-    "date":"",
-    "post":""
-},
-{
-    "title":"",
-    "date":"",
-    "post":""
-},
-{
-    "title":"",
-    "date":"",
-    "post":""
-},
-{
-    "title":"",
-    "date":"",
-    "post":""
-},
+    "posts": [
+        {
+            "title": "Today's Featured Project: Be Productive Using a Pomodoro Clock",
+            "date": "2020-04-12"
+        },
+        {
+            "title": "Today's Featured Project: Visualizing Data Using a Heat Map",
+            "date": "2020-04-06"   
+        },
+        {
+            "title": "First Project Uploaded: Choropleth Map - Data Visualization",
+            "date": "2020-04-05"
+        },
+        {
+        "title": "Hello!",
+        "date": "2020-04-04"
+        }
+    ]
+}
