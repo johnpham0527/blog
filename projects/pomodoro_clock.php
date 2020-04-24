@@ -1,5 +1,6 @@
 <?php $pathToRoot = ".."; ?>
 
+<!DOCTYPE html>
 <html>
   <head>
     <title>John Pham's Web Development Learning Journey - Be Productive with a Pomodoro Clock</title>
