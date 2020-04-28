@@ -83,6 +83,11 @@ nav h2 {
     color: #F7F8FA;
 }
 
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 main, nav, aside {
     grid-row: 2 / 4;
 }
