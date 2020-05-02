@@ -1,17 +1,21 @@
 "use strict";
 
 fetch("updates.json")
-  .then( response => response.json())
-  .then( data => {
-        console.log(data)
+  .then(response => response.json())
+  .then(data => {
 
-        let output = "";
-        let allPosts = data.posts;
+    let allPosts = data.posts;
+    let htmlOutput = "";
 
-        allPosts.forEach( post => {
-            output += post.title + "<br>";
-        });
+    allPosts.forEach( post => {
+        htmlOutput += `
+        <article>
+            <h3>${post.title}</h3>
+            <p class="date">Posted ${post.date}</p>
+            ${post.entry}
+        </article>
+        `;
+    });
 
-        document.getElementById("debug").innerHTML = output;
-
+    document.getElementById("blogs").innerHTML = htmlOutput;
   });

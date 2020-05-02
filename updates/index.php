@@ -18,8 +18,8 @@
         ?>
       </header>
       <main role="main">
-        <section>
-          <h2>All Blog Posts</h2>
+        <h2>All Blog Posts</h2>
+        <section id="blogs">
           <article>
               <h3>Today's Featured Project: Be Productive Using a Pomodoro Clock</h3>
               <p class="date">Posted April 12, 2020</p>
@@ -96,8 +96,6 @@
               I plan to upload my projects, discuss my learning process, and describe my applications' features and benefits.</p>
           </article>
         </section>
-        <div id="debug">
-        </div>
       </main>
       <nav role="navigation">
         <?php 
