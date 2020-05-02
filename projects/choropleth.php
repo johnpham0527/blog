@@ -53,7 +53,7 @@
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" crossorigin></script>
-    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/topojson@3" crossorigin></script>
     <script src="../js/choropleth.js"></script>
   </body>
 </html>
