@@ -96,6 +96,8 @@
               I plan to upload my projects, discuss my learning process, and describe my applications' features and benefits.</p>
           </article>
         </section>
+        <div id="debug">
+        </div>
       </main>
       <nav role="navigation">
         <?php 
