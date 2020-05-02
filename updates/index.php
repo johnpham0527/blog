@@ -118,5 +118,6 @@
         ?>
       </footer>
     </div>
+    <script src="read-blogs.js"></script>
   </body>
 </html>
