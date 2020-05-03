@@ -30,7 +30,7 @@ li, p {
 }
 
 header {
-    background: white;
+    background-color: white;
     color: #282461;
     grid-column: 1 / 13;
     grid-row: 1 / 1;
@@ -47,7 +47,7 @@ header a:visited {
 }
 
 main {
-    background: #F7F8FA;
+    background-color: #F7F8FA;
     grid-column: 4 / 10;
 }
 
@@ -60,7 +60,7 @@ main h2, main h3 {
 }
 
 aside {
-    background: #613524;
+    background-color: #613524;
     color: white;
     grid-column: 10 / 13;
 }
@@ -70,7 +70,7 @@ aside h2 {
 }
 
 nav {
-    background: #282461;
+    background-color: #282461;
     color: white;
     grid-column: 1 / 4;
 }
@@ -93,7 +93,7 @@ main, nav, aside {
 }
 
 footer {
-    background: #615424;
+    background-color: #615424;
     grid-column: 1 / 13;
     color: white;
 }
