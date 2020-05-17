@@ -29,8 +29,8 @@ figcaption {
     text-align: center;
   }
   
-  .legend rect {
-    fill: snow;
-    opacity: 0.9;
-    stroke: dimgray;
-  }
+.legend rect {
+fill: snow;
+opacity: 0.9;
+stroke: dimgray;
+}
