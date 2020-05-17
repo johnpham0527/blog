@@ -69,8 +69,12 @@ main {
     grid-column: 4 / 10;
 }
 
-main h2, main h3 {
+main h2 {
     color: #282461;
+}
+
+main h3 {
+    color: #613524;
 }
 
 .date {
