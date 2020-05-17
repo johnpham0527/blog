@@ -12,6 +12,11 @@ body {
     font-family: "Work Sans", helvetica, arial, sans-serif;
 }
 
+h2 {
+    font-size: 1.618em;
+    line-height: 1.618em;
+}
+
 h3 {
     text-transform: uppercase;
     font-size: 1em;
