@@ -115,6 +115,10 @@ main, nav, aside {
     grid-row: 2 / 4;
 }
 
+#blogs article {
+    margin-bottom: 2.618em;
+}
+
 footer {
     background-color: #615424;
     grid-column: 1 / 13;
