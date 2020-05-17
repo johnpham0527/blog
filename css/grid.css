@@ -119,6 +119,14 @@ main, nav, aside {
     margin-bottom: 2.618em;
 }
 
+#blogs article p:nth-of-type(2)::first-letter {
+    font-size: 4.236em;
+    float: left;
+    padding: 0 0.09em 0 0.056em;
+    margin-top: 0.09em;
+    color: #615424;
+}
+
 footer {
     background-color: #615424;
     grid-column: 1 / 13;
