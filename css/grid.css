@@ -41,6 +41,7 @@ li, p {
 .container > * {
     padding: 20px;
 }
+
 .container {
     color: #2F3040;
     display: grid;
@@ -261,7 +262,7 @@ footer a {
     }
 }
 
-/*** Desktop Styles ***
+/*** Laptop Styles ***
 ======================*/
 @media all and (min-width: 801px) and (max-width: 1200px) {
     .container > * {
@@ -271,6 +272,10 @@ footer a {
     nav {
         grid-column: 1 / 3;
         grid-row: 2 / 2;
+    }
+
+    nav ul li {
+        margin-bottom: 1em;
     }
 
     aside {
@@ -294,6 +299,15 @@ footer a {
 
     #app {
         grid-row: 4 /4;
+    }
+}
+
+/*** External Monitor Styles ***
+======================*/
+@media all and (min-width: 1201px) {
+    body {
+        max-width: 1433px;
+        margin: auto;
     }
 
 }
