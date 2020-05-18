@@ -158,4 +158,24 @@ footer a {
         font-size: 2.3em;
         line-height: 1em;
     }
+
+    nav {
+        grid-column: 1 / 13;
+        grid-row: 2 / 2;
+    }
+
+    main {
+        grid-column: 1 / 13;
+        grid-row: 3 / 3;
+    }
+
+    aside {
+        grid-column: 1 / 13;
+        grid-row: 4 / 4;
+    }
+
+    footer {
+        grid-column: 1 / 13;
+        grid-row: 5 / 5;
+    }
 }
