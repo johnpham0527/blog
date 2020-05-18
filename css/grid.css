@@ -155,7 +155,7 @@ footer a {
 ======================*/
 @media all and (max-width: 360px) {
     .container > * {
-        padding: 10px;
+        padding: 1em;
     }
 
     h1 {
@@ -163,7 +163,7 @@ footer a {
         line-height: 1em;
     }
 
-    nav {
+    nav, #project-nav {
         grid-column: 1 / 13;
         grid-row: 2 / 2;
     }
@@ -171,6 +171,15 @@ footer a {
     main {
         grid-column: 1 / 13;
         grid-row: 3 / 3;
+    }
+
+    #project-aside {
+        grid-column: 1 /13;
+        grid-row: 3 /3;
+    }
+
+    #app {
+        grid-row: 4 /4;
     }
 
     aside {
