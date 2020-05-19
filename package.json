@@ -25,6 +25,7 @@
   "homepage": "https://github.com/johnpham0527/blog#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
     "gulp": "^4.0.2"
   }
 }
