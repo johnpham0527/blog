@@ -1,0 +1,1 @@
+<small>&copy; Copyright 2020, John D. Pham</small>

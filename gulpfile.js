@@ -22,7 +22,7 @@ function php(cb) {
 
 function css(cb) {
   src(`${origin}/**/*.css`)
-  .pipe(dest(`${destination}/css`));
+  .pipe(dest(`${destination}`));
   cb();
 }
 
@@ -30,7 +30,7 @@ function js(cb) {
   src([
     `${origin}/**/*.js`
   ])
-  .pipe(dest(`${destination}/js`));
+  .pipe(dest(`${destination}`));
   cb();
 }
 
@@ -52,4 +52,5 @@ function server(cb) {
   cb();
 }
 
-exports.default = series(clean, parallel(html, php, css, js), server, watcher);
+//exports.default = series(clean, parallel(html, php, css, js), server, watcher);
+exports.default = series(clean, parallel(html, php, css, js));
