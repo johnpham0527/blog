@@ -1,9 +1,6 @@
 const {src, dest, series, parallel, watch} = require('gulp');
 const del = require('del');
 const browserSync = require('browser-sync').create();
-const babel = require('gulp-babel');
-const concatenate = require ('gulp-concat');
-const sass = require('gulp-sass');
 
 const origin = 'src';
 const destination = 'build';
@@ -21,9 +18,6 @@ function html(cb) {
 }
 function css(cb) {
   src(`${origin}/**/*.css`)
-  .pipe(sass({
-    outputStyle: 'compressed'
-  }))
   .pipe(dest(`${destination}/css`));
   cb();
 }
