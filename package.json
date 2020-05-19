@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/johnpham0527/blog/issues"
   },
-  "homepage": "https://github.com/johnpham0527/blog#readme"
+  "homepage": "https://github.com/johnpham0527/blog#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
 }
