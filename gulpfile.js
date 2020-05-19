@@ -57,4 +57,4 @@ function server(cb) {
 }
 
 //exports.default = series(clean, parallel(html, css, js), server, watcher);
-exports.default = series(server, watcher);
+exports.default = series(clean, parallel(html, css, js), server, watcher);
