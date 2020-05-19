@@ -179,6 +179,15 @@ footer a {
         grid-row: 2 / 2;
     }
 
+    nav ul, #project-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul li, #project-nav ul li {
+        margin-right: 1em;
+    }
+
     main {
         grid-column: 1 / 13;
         grid-row: 3 / 3;
