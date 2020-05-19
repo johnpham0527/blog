@@ -5,8 +5,6 @@ const browserSync = require('browser-sync').create();
 const origin = 'src';
 const destination = 'build';
 
-sass.compiler = require('node-sass');
-
 async function clean(cb) {
   await del(destination);
   cb();
