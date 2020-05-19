@@ -15,6 +15,11 @@ function html(cb) {
   cb();
 }
 
+function php(cb) {
+  src(`${origin}/**/*.php`).pipe(dest(`${destination}`));
+  cb();
+}
+
 function css(cb) {
   src(`${origin}/**/*.css`)
   .pipe(dest(`${destination}/css`));
@@ -47,4 +52,4 @@ function server(cb) {
   cb();
 }
 
-exports.default = series(clean, parallel(html, css, js), server, watcher);
+exports.default = series(clean, parallel(html, php, css, js), server, watcher);
