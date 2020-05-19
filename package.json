@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "John Pham's Web Development Learning Journey Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpham0527/blog.git"
+  },
+  "keywords": [
+    "John",
+    "Pham",
+    "web",
+    "development",
+    "blog"
+  ],
+  "author": "John Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpham0527/blog/issues"
+  },
+  "homepage": "https://github.com/johnpham0527/blog#readme"
+}
