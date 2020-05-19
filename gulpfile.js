@@ -34,6 +34,7 @@ function js(cb) {
   cb();
 }
 
+/*
 function watcher(cb) {
   watch(`${origin}/*.html`).on('change', series(html, browserSync.reload));
   watch(`${origin}/*.css`).on('change', series(css, browserSync.reload));
@@ -51,6 +52,7 @@ function server(cb) {
   });
   cb();
 }
+*/
 
 //exports.default = series(clean, parallel(html, php, css, js), server, watcher);
 exports.default = series(clean, parallel(html, php, css, js));
