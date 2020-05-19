@@ -4,7 +4,7 @@
   "description": "John Pham's Web Development Learning Journey Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --proxy localhost/~johnpham/blog/build"
   },
   "repository": {
     "type": "git",

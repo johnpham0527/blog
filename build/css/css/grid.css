@@ -1,0 +1,312 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", helvetica, arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.618em;
+    line-height: 1.1618em;
+}
+
+h2 {
+    font-size: 1.618em;
+    line-height: 1.618em;
+    font-style: italic;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+li, p {
+    line-height: 1.618em;
+}
+
+.container > * {
+    padding: 20px;
+}
+
+.container {
+    color: #2F3040;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+header {
+    background-color: white;
+    color: #282461;
+    grid-column: 1 / 13;
+    grid-row: 1 / 1;
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #282461;
+}
+
+header a:visited {
+    color: #282461;
+}
+
+main {
+    background-color: #F7F8FA;
+    grid-column: 3 / 11;
+}
+
+main h2 {
+    color: #282461;
+}
+
+main h3 {
+    color: #613524;
+}
+
+.date {
+    font-size: 0.618em;
+    font-weight: bold;
+}
+
+aside {
+    background-color: #613524;
+    color: white;
+    grid-column: 11 / 13;
+}
+
+aside h2 {
+    color: #F7F8FA;
+}
+
+nav {
+    background-color: #282461;
+    color: white;
+    grid-column: 1 / 3;
+}
+
+nav a, aside a {
+    color: white;
+}
+
+nav h2 {
+    color: #F7F8FA;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main, nav, aside {
+    grid-row: 2 / 4;
+}
+
+#blogs article {
+    margin-bottom: 2.618em;
+}
+
+#blogs article p:nth-of-type(2)::first-letter, #latestblog article p:nth-of-type(2)::first-letter {
+    font-size: 4.236em;
+    float: left;
+    padding: 0 0.09em 0 0.056em;
+    margin-top: 0.09em;
+    color: #615424;
+}
+
+footer {
+    background-color: #615424;
+    grid-column: 1 / 13;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+/*** CSS for Projects */
+#project-aside, #project-nav {
+    grid-row: 2 / 2;
+}
+
+#app {
+    grid-row: 3 / 3;
+    grid-column: 1 / 13;
+}
+
+#project-aside {
+    grid-column: 3 / 13;
+}
+
+/*** Mobile Styles ***
+======================*/
+@media all and (max-width: 400px) {
+    .container > * {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.618em;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    h3, h4 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    nav, #project-nav {
+        grid-column: 1 / 13;
+        grid-row: 2 / 2;
+    }
+
+    main {
+        grid-column: 1 / 13;
+        grid-row: 3 / 3;
+    }
+
+    #project-aside {
+        grid-column: 1 /13;
+        grid-row: 3 /3;
+    }
+
+    #app {
+        grid-row: 4 /4;
+    }
+
+    aside {
+        grid-column: 1 / 13;
+        grid-row: 4 / 4;
+    }
+
+    footer {
+        grid-column: 1 / 13;
+        grid-row: 5 / 5;
+    }
+}
+
+/*** Tablet Styles ***
+======================*/
+@media all and (min-width: 401px) and (max-width: 800px) {
+    .container > * {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.618em;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    h3, h4 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    nav, #project-nav {
+        grid-column: 1 / 13;
+        grid-row: 2 / 2;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    main {
+        grid-column: 1 / 13;
+        grid-row: 3 / 3;
+    }
+
+    #project-aside {
+        grid-column: 1 /13;
+        grid-row: 3 /3;
+    }
+
+    #app {
+        grid-row: 4 /4;
+    }
+
+    aside {
+        grid-column: 1 / 13;
+        grid-row: 4 / 4;
+    }
+
+    footer {
+        grid-column: 1 / 13;
+        grid-row: 5 / 5;
+    }
+}
+
+/*** Laptop Styles ***
+======================*/
+@media all and (min-width: 801px) and (max-width: 1200px) {
+    .container > * {
+        padding: 1em;
+    }
+
+    nav {
+        grid-column: 1 / 3;
+        grid-row: 2 / 2;
+    }
+
+    nav ul li {
+        margin-bottom: 1em;
+    }
+
+    aside {
+        grid-column: 1 / 13;
+        grid-row: 3 / 3;
+    }
+
+    main {
+        grid-column: 3 / 13;
+        grid-row: 2 / 2;
+    }
+
+    #project-nav {
+
+    }
+
+    #project-aside {
+        grid-column: 1 /13;
+        grid-row: 3 /3;
+    }
+
+    #app {
+        grid-row: 4 /4;
+    }
+}
+
+/*** External Monitor Styles ***
+==============================*/
+@media all and (min-width: 1201px) {
+    body {
+        max-width: 1433px;
+        margin: auto;
+    }
+}

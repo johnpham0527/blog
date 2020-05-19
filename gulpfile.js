@@ -14,6 +14,7 @@ function html(cb) {
   src(`${origin}/**/*.html`).pipe(dest(`${destination}`));
   cb();
 }
+
 function css(cb) {
   src(`${origin}/**/*.css`)
   .pipe(dest(`${destination}/css`));
