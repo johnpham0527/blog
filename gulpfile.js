@@ -16,11 +16,11 @@ async function clean(cb) {
 }
 
 function html(cb) {
-  src(`${origin}/*.html`).pipe(dest(`${destination}`));
+  src(`${origin}/**/*.html`).pipe(dest(`${destination}`));
   cb();
 }
 function css(cb) {
-  src(`${origin}/*.css`)
+  src(`${origin}/**/*.css`)
   .pipe(sass({
     outputStyle: 'compressed'
   }))
@@ -30,10 +30,8 @@ function css(cb) {
 
 function js(cb) {
   src([
-    `${origin}/*.js`
+    `${origin}/**/*.js`
   ])
-  .pipe(concatenate('build.js'))
-  .pipe(babel())
   .pipe(dest(`${destination}/js`));
   cb();
 }
@@ -56,5 +54,4 @@ function server(cb) {
   cb();
 }
 
-//exports.default = series(clean, parallel(html, css, js), server, watcher);
 exports.default = series(clean, parallel(html, css, js), server, watcher);
