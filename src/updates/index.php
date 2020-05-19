@@ -6,6 +6,7 @@
     <title>John Pham's Web Development Learning Journey - Updates</title>
     <meta name="description" content="John D. Pham's Learning Journey">
     <meta name="keywords" content="John D. Pham, portfolio, blog, HTML, CSS, JavaScript, nonprofits, fundraising, public administration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/grid.css">
     <link href="https://fonts.googleapis.com/css?family=Work Sans" rel='stylesheet'>
   </head>
